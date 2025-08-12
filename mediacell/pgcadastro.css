@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+
+@media screen and (max-width:768px) {
+    
+
+
+body{
+
+    background: #282828;
+    font: normal 16pt Arial;
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(250, 253, 253);
+    padding-top: 10px;
+    margin-bottom: -15px;
+
+}
+
+h1 > span{
+
+    color: rgba(8, 223, 223, 0.963)
+}
+
+section{
+    display: block;
+    background-color: #504f4f8c;
+    margin: auto;
+  
+    width:80vw;
+   
+    border-radius: 5px;
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
+        
+}
+
+div#campo{
+
+    padding: 15px;
+    
+}
+
+
+
+
+
+
+input {
+    display: inline-block;
+    border-radius: 5px;
+    width: 60vw;
+    margin: auto;   
+     background-color: rgb(50, 48, 48);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 14pt;
+    
+}
+
+input#enter{
+    display: block;
+    background-color: rgba(7, 197, 197, 0.84);
+    width: 200px;
+    margin: 0px auto;
+}
+p{
+    margin-top: 35px;
+}
+
+input#criaconta{
+    display: block;
+    margin:auto;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: rgb(14, 15, 15);
+    text-decoration: none;
+    width: 200px;
+
+}
+
+}
