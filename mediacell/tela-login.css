@@ -40,10 +40,13 @@ div#campo{
 
     padding: 15px;
     
+    
 }
 
 div#campo >p{
     margin-top: 35px;
+    
+    
 }
 
 div#ptbaixo{
@@ -71,7 +74,7 @@ div#ptbaixo{
 input {
     display: inline-block;
     border-radius: 5px;
-    width: 60vw;
+    width: 95%;
     margin: auto;   
     background-color: rgb(50, 48, 48);
     border: 1px solid white;

@@ -31,6 +31,7 @@ section{
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
     max-width:600px;
+    height: 500px;
    
     border-radius: 5px;
    
@@ -40,7 +41,8 @@ section{
 div#campo{
 
     padding: 15px;
-    height: 300px;
+    margin-left: 30px;
+    
     
 }
 
@@ -88,8 +90,11 @@ input#enter{
     width: 300px;
     margin:auto;
     margin-top: 80px;
+   
     
 }
+
+
 
 
 a{
@@ -99,7 +104,32 @@ a{
     border-radius: 5px;
     background: rgb(14, 15, 15);
     text-decoration: none;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+   
 
 }
 
+a::after{
+
+    content: '';
+    background-color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    transition: 0.2s ease-in-out;
+
+}
+
+a:hover::after{
+
+    width: 100%;
+}
+a:hover{
+    color: black;
+}
 }
