@@ -91,6 +91,13 @@ input#enter{
     margin: 0px auto;
 }
 
+input#enter[type="button"]:hover{
+
+    background-color: white;
+    color: aqua;
+    transition: 0.2s ease-in-out;
+}
+
 
 a{
     display: inline-block;
@@ -99,6 +106,14 @@ a{
     border-radius: 5px;
     background: rgb(14, 15, 15);
     text-decoration: none;
+
+}
+
+a:hover{
+
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
 
 }
 

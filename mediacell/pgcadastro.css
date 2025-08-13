@@ -62,12 +62,7 @@ input {
     
 }
 
-input#enter{
-    display: block;
-    background-color: rgba(7, 197, 197, 0.84);
-    width: 200px;
-    margin: 0px auto;
-}
+
 p{
     margin-top: 35px;
 }
@@ -82,6 +77,13 @@ input#criaconta{
     text-decoration: none;
     width: 200px;
 
+}
+
+input#criaconta[type="button"]:hover{
+
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
 }
 
 }
