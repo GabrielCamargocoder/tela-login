@@ -1,5 +1,5 @@
 
-addEventListener('click', clicar)
+
 
 let a = document.getElementById('enter')
 
