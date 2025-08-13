@@ -28,12 +28,12 @@ h1 > span{
 section{
     display: block;
     background-color: #504f4f8c;
-    margin: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
+    margin: 5% auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.375);
     max-width:600px;
     height: 500px;
    
-    border-radius: 5px;
+    border-radius: 15px;
    
         
 }
@@ -51,7 +51,7 @@ div#ptbaixo{
     border-top: 1px solid white;
     background: rgba(39, 40, 41, 0.781);
     height: 120px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 15px 15px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -94,6 +94,31 @@ input#enter{
     
 }
 
+input#enter[type="button"]:hover{
+
+   animation-name: pulsante;
+   animation-duration: 0.3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+   background-color: white;
+   color: aqua;
+   transition: 0.2s ease-in-out;
+}
+
+
+
+@keyframes pulsante {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+
+        transform: scale(1.05);
+    }
+}
 
 
 
@@ -121,7 +146,7 @@ a::after{
     height: 100%;
     width: 0px;
     z-index: -1;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s ease-out;
 
 }
 

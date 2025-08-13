@@ -28,12 +28,12 @@ h1 > span{
 section{
     display: block;
     background-color: #504f4f8c;
-    margin: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
+    margin: 5% auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.375);
     max-width:600px;
     height: 500px;
    
-    border-radius: 5px;
+    border-radius: 15px;
    
         
 }
@@ -77,6 +77,15 @@ input#criaconta{
     
 }
 
+
+
+input#criaconta[type="button"]:hover{
+
+   
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
 
 
 }
