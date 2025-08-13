@@ -29,9 +29,9 @@ h1 > span{
 section{
     display: block;
     background-color: #504f4f8c;
-    margin: auto;
+    margin:5% auto;
     width:80vw;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
         
 }
@@ -54,7 +54,7 @@ div#ptbaixo{
     border-top: 1px solid white;
     background: rgba(39, 40, 41, 0.781);
     height: 140px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 15px 15px;
     text-align: center;
     display: flex;
     justify-content: space-around;

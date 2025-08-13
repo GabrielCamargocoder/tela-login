@@ -28,12 +28,13 @@ h1 > span{
 section{
     display: block;
     background-color: #504f4f8c;
-    margin: auto;
+    
+    margin: 5% auto;
   
     width:80vw;
    
-    border-radius: 5px;
-   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
         
 }
 
@@ -53,7 +54,7 @@ input {
     border-radius: 5px;
     width: 95%;
     margin: auto;   
-     background-color: rgb(50, 48, 48);
+    background-color: rgb(50, 48, 48);
     border: 1px solid white;
     color: white;
     padding: 5px;
